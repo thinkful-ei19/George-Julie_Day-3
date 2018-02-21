@@ -15,6 +15,8 @@ function decodeWords(code){
     //     let index = decoder(firstLetter);
     //     return word[index] || " "; 
     // }).join('')
+
+
     let result = '';
     for (let i = 0; i < code.length; i++){
         let firstLetter = code[i].charAt(0); 
